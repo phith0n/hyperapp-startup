@@ -1,0 +1,34 @@
+{
+  "name": "hyperapp-startup",
+  "version": "1.0.0",
+  "description": "Hyperapp startup ",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c",
+    "start": "http-server -p 5000 -a 0.0.0.0 ./"
+  },
+  "author": "phithon",
+  "license": "MIT",
+  "homepage": "https://github.com/phith0n/hyperapp-startup",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phith0n/hyperapp-startup"
+  },
+  "bugs": {
+    "url": "https://github.com/phith0n/hyperapp-startup/issues"
+  },
+  "dependencies": {
+    "hyperapp": "*"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "rollup": "^0.50.0",
+    "rollup-plugin-buble": "^0.16.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-scss": "^0.3.0",
+    "rollup-plugin-uglify": "^2.0.1"
+  },
+  "keywords": [
+    "hyperapp"
+  ]
+}
