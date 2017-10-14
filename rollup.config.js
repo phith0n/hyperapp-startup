@@ -13,10 +13,12 @@ export default {
       jsnext: true
     }),
     uglify(),
-    scss()
+    scss({
+      output: "docs/bundle.css"
+    })
   ],
   output: {
-    file: 'bundle.js',
+    file: 'docs/bundle.js',
     format: 'iife'
   },
   input: 'src/index.js'

@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "rollup -c -w",
     "build": "rollup -c",
-    "start": "http-server -p 5000 -a 0.0.0.0 ./"
+    "start": "http-server -p 5000 -a 0.0.0.0 ./docs/"
   },
   "author": "phithon",
   "license": "MIT",
